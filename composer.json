@@ -1,0 +1,22 @@
+{
+	"name": "ps14/container-columns",
+	"description": "Example for EXT:container",
+	"type": "typo3-cms-extension",
+	"homepage": "https://b13.com",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"require": {
+		"b13/container": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"B13\\ContainerExample\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "container_example"
+		}
+	}
+}

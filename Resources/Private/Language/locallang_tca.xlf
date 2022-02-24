@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2022-02-24T21:54:04Z" product-name="container_columns">
+		<header/>
+		<body>
+			<trans-unit id="tx_container_columns.title">
+				<source>Two Columns</source>
+			</trans-unit>
+			<trans-unit id="tx_container_columns.description">
+				<source>Two container for content elements</source>
+			</trans-unit>
+			<trans-unit id="tx_container_columns.description">
+				<source>Two container for content elements</source>
+			</trans-unit>
+			<trans-unit id="tx_container_columns.column.1">
+				<source>Column 1</source>
+			</trans-unit>
+			<trans-unit id="tx_container_columns.column.2">
+				<source>Column 2</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

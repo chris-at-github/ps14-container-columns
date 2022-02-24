@@ -1,0 +1,22 @@
+// use default/general ContainerProcessor
+tt_content.container-2-column < lib.contentElement
+tt_content.container-2-column {
+  templateName = ContainerTwoColumn
+  templateRootPaths {
+    10 = EXT:container_columns/Resources/Private/Templates
+  }
+
+  dataProcessing {
+    4001 = B13\Container\DataProcessing\ContainerProcessor
+    4001 {
+      colPos = 4001
+      as = columnOne
+    }
+
+    4002 = B13\Container\DataProcessing\ContainerProcessor
+    4002 {
+      colPos = 4002
+      as = columnTwo
+    }
+  }
+}
