@@ -18,6 +18,16 @@
 			<trans-unit id="tx_container_columns.column.2">
 				<source>Column 2</source>
 			</trans-unit>
+
+			<trans-unit id="tx_container_columns.flexform.tab.main">
+				<source>Main</source>
+			</trans-unit>
+			<trans-unit id="tx_container_columns.flexform.columnOneWidth">
+				<source>Column 1: Width</source>
+			</trans-unit>
+			<trans-unit id="tx_container_columns.flexform.columnTwoWidth">
+				<source>Column 2: Width</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

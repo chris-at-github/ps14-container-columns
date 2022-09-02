@@ -14,3 +14,12 @@
 		]
 	)
 ));
+
+// Flexform
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+	'*',
+	'FILE:EXT:container_columns/Configuration/FlexForms/ContainerColumns.xml',
+	'container-2-column'
+);
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tt_content', 'pi_flexform', 'container-2-column', 'after:header');

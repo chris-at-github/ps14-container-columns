@@ -7,6 +7,12 @@ tt_content.container-2-column {
   }
 
   dataProcessing {
+    110 = Ps\Xo\DataProcessing\FlexFormProcessor
+    110 {
+      fieldName = pi_flexform
+      as = flexform
+    }
+
     4001 = B13\Container\DataProcessing\ContainerProcessor
     4001 {
       colPos = 4001
@@ -20,3 +26,15 @@ tt_content.container-2-column {
     }
   }
 }
+
+plugin.tx_xo.settings.modules.containerColumns {
+  columnWidth {
+    3 = 25%
+    4 = 33%
+    6 = 50%
+    8 = 66%
+    9 = 75%
+  }
+}
+
+module.tx_xo.settings.modules.containerColumns < plugin.tx_xo.settings.modules.containerColumns
