@@ -1,9 +1,9 @@
 // use default/general ContainerProcessor
-tt_content.container-2-column < lib.contentElement
-tt_content.container-2-column {
+tt_content.ps14_container_2_column < lib.contentElement
+tt_content.ps14_container_2_column {
   templateName = ContainerTwoColumn
   templateRootPaths {
-    10 = EXT:container_columns/Resources/Private/Templates
+    10 = EXT:ps14_container_columns/Resources/Private/Templates
   }
 
   dataProcessing {
@@ -27,7 +27,7 @@ tt_content.container-2-column {
   }
 }
 
-plugin.tx_xo.settings.modules.containerColumns {
+plugin.tx_ps14containercolumns.settings {
   columnWidth {
     3 = 25%
     4 = 33%
@@ -37,4 +37,4 @@ plugin.tx_xo.settings.modules.containerColumns {
   }
 }
 
-module.tx_xo.settings.modules.containerColumns < plugin.tx_xo.settings.modules.containerColumns
+module.tx_ps14containercolumns.settings < plugin.tx_ps14containercolumns.settings

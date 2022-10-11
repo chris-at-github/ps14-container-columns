@@ -6,34 +6,34 @@
 		<main>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:container_columns/Resources/Private/Language/locallang_tca.xlf:tx_container_columns.flexform.tab.main</sheetTitle>
+					<sheetTitle>LLL:EXT:ps14_container_columns/Resources/Private/Language/locallang_tca.xlf:tx_container_columns.flexform.tab.main</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
 					<settings.columnOneWidth>
 						<TCEforms>
-							<label>LLL:EXT:container_columns/Resources/Private/Language/locallang_tca.xlf:tx_container_columns.flexform.columnOneWidth</label>
+							<label>LLL:EXT:ps14_container_columns/Resources/Private/Language/locallang_tca.xlf:flexform.columnOneWidth</label>
 							<config>
 								<type>select</type>
 								<renderType>selectSingle</renderType>
 								<itemsProcFunc>Ps\Xo\Service\TcaService->getItemsBySettingsIdentifier</itemsProcFunc>
 								<itemsProcConfig>
-									<identifier>modules.containerColumns.columnWidth</identifier>
-									<extension>xo</extension>
+									<identifier>columnWidth</identifier>
+									<extension>Ps14ContainerColumns</extension>
 								</itemsProcConfig>
 							</config>
 						</TCEforms>
 					</settings.columnOneWidth>
 					<settings.columnTwoWidth>
 						<TCEforms>
-							<label>LLL:EXT:container_columns/Resources/Private/Language/locallang_tca.xlf:tx_container_columns.flexform.columnTwoWidth</label>
+							<label>LLL:EXT:ps14_container_columns/Resources/Private/Language/locallang_tca.xlf:flexform.columnTwoWidth</label>
 							<config>
 								<type>select</type>
 								<renderType>selectSingle</renderType>
 								<itemsProcFunc>Ps\Xo\Service\TcaService->getItemsBySettingsIdentifier</itemsProcFunc>
 								<itemsProcConfig>
-									<identifier>modules.containerColumns.columnWidth</identifier>
-									<extension>xo</extension>
+									<identifier>columnWidth</identifier>
+									<extension>Ps14ContainerColumns</extension>
 								</itemsProcConfig>
 							</config>
 						</TCEforms>

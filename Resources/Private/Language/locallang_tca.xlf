@@ -3,29 +3,27 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2022-02-24T21:54:04Z" product-name="container_columns">
 		<header/>
 		<body>
-			<trans-unit id="tx_container_columns.title">
+			<trans-unit id="container-two-column.title">
 				<source>Two Columns</source>
 			</trans-unit>
-			<trans-unit id="tx_container_columns.description">
+			<trans-unit id="container-two-column.description">
 				<source>Two container for content elements</source>
 			</trans-unit>
-			<trans-unit id="tx_container_columns.description">
-				<source>Two container for content elements</source>
-			</trans-unit>
-			<trans-unit id="tx_container_columns.column.1">
+
+			<trans-unit id="container-columns.column.1">
 				<source>Column 1</source>
 			</trans-unit>
-			<trans-unit id="tx_container_columns.column.2">
+			<trans-unit id="container-columns.column.2">
 				<source>Column 2</source>
 			</trans-unit>
 
-			<trans-unit id="tx_container_columns.flexform.tab.main">
+			<trans-unit id="flexform.tab.main">
 				<source>Main</source>
 			</trans-unit>
-			<trans-unit id="tx_container_columns.flexform.columnOneWidth">
+			<trans-unit id="flexform.columnOneWidth">
 				<source>Column 1: Width</source>
 			</trans-unit>
-			<trans-unit id="tx_container_columns.flexform.columnTwoWidth">
+			<trans-unit id="flexform.columnTwoWidth">
 				<source>Column 2: Width</source>
 			</trans-unit>
 		</body>

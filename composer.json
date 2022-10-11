@@ -11,12 +11,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"B13\\ContainerExample\\": "Classes/"
+			"Ps14\\Ps14ContainerColumns\\": "Classes/"
 		}
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "container_example"
+			"extension-key": "ps14_container_columns"
 		}
 	}
 }
