@@ -13,6 +13,13 @@ tt_content.ps14_container_2_column {
       as = flexform
     }
 
+    130 = Ps14\Ps14ContainerColumns\DataProcessing\ModuleProcessor
+    130 {
+      importCss {
+        10 = /assets/css/modules/container-columns.css
+      }
+    }
+
     4001 = B13\Container\DataProcessing\ContainerProcessor
     4001 {
       colPos = 4001

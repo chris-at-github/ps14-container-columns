@@ -1,0 +1,38 @@
+// ---------------------------------------------------------------------------------------------------------------------
+// Bootstrap & XNA
+@import '../../../../xna/Resources/Public/Sass/functions';
+@import '../../../../xna/Resources/Public/Sass/variables';
+@import '../../../../xna/Resources/Public/Sass/mixins';
+
+// ---------------------------------------------------------------------------------------------------------------------
+// Variablen
+$ps14-container-columns--use-css: true !default;
+
+@if($ps14-container-columns--use-css) {
+	.grid__column--3, .grid__column--4, .grid__column--6, .grid__column--8, .grid__column--9 {
+		grid-column: auto/span 12;
+	}
+
+	// => 768px
+	@include media-breakpoint-up(md) {
+		.grid__column--3 {
+			grid-column: auto/span 3;
+		}
+
+		.grid__column--4 {
+			grid-column: auto/span 4;
+		}
+
+		.grid__column--6 {
+			grid-column: auto/span 6;
+		}
+
+		.grid__column--8 {
+			grid-column: auto/span 8;
+		}
+
+		.grid__column--9 {
+			grid-column: auto/span 9;
+		}
+	}
+}
